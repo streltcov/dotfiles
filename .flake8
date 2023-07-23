@@ -1,0 +1,20 @@
+[flake8]
+ignore = E116, F407, W191, W686, N814, N817, SIM119, C405, C406
+select = E101, E111, E117, E121, E221, E222, E223, E224, E225, E241, E242, E251, E261, E262, E265, E274, E275, E301,
+         E302, E303, E304, E305, E306, E401, E501, E502, E722, F401, F402, F405, F501, F601, F602, F621, F631, F632,
+         F811, F822, F831, F841
+         ABS101,
+         ANN001, ANN201, ANN202, ANN205, ANN206,
+         C101, C102,
+         C400, C401, C402,
+         DJ06, DJ07, DJ08, DJ10, DJ11, DJ12, DJ13,
+         CFQ001, CFQ002, CFQ003,
+         SIM101, SIM102, SIM103, SIM105, SIM112, SIM113, SIM115, SIM116, SIM118, SIM120, SIM210, SIM401, SIM988,
+         N801, N802, N803, N804, N805, N806, N807, N811, N812, N813, N815, N816, N818
+per-file-ignores: manage.py:ANN201,C101
+max-line-length = 120
+max-complexity = 6
+indent-size = 4
+verbose = True
+statistics = True
+count = True
